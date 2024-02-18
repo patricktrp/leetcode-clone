@@ -13,7 +13,6 @@ public class Problem {
     @Id
     private String id;
     private String name;
-    private String slug;
     private List<String> description;
     private List<String> hints;
     private String sampleInput;

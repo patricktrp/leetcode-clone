@@ -1,7 +1,7 @@
 [
   {
     "name": "Two Sum",
-    "slug": "two-sum",
+    "id": "two-sum",
     "description": [
       "1", "2"
     ],
@@ -22,7 +22,7 @@
   },
   {
     "name": "Binary Search",
-    "slug": "binary-search",
+    "id": "binary-search",
     "description": [
       "1", "2"
     ],
@@ -43,7 +43,7 @@
   },
   {
     "name": "Bubble Sort",
-    "slug": "bubble-sort",
+    "id": "bubble-sort",
     "description": [
       "1", "2"
     ],

@@ -2,6 +2,7 @@ package dev.treppmann.leetcode.api.controller;
 
 import dev.treppmann.leetcode.api.dto.ProblemDTO;
 import dev.treppmann.leetcode.api.dto.ProblemListDTO;
+import dev.treppmann.leetcode.api.entity.Problem;
 import dev.treppmann.leetcode.api.exception.ProblemNotFoundException;
 import dev.treppmann.leetcode.api.service.IProblemService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,13 +24,13 @@ public class ProblemController {
     }
 
     @GetMapping
-    public List<ProblemListDTO> getProblems() {
+    public List<Problem> getProblems() {
         return problemService.getProblems();
     }
 
     @GetMapping
     @RequestMapping("/{problemId}")
-    public ProblemDTO getProblemById(@PathVariable String problemId) {
+    public Problem getProblemById(@PathVariable String problemId) {
         try {
             return problemService.getProblemById(problemId);
         } catch (ProblemNotFoundException e) {

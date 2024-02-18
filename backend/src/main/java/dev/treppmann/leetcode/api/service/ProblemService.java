@@ -20,14 +20,14 @@ public class ProblemService implements IProblemService {
     }
 
     @Override
-    public List<ProblemListDTO> getProblems() {
+    public List<Problem> getProblems() {
         List<Problem> problems = problemRepository.findAll();
-        return null;
+        return problems;
     }
 
     @Override
-    public ProblemDTO getProblemById(String problemId) throws ProblemNotFoundException {
+    public Problem getProblemById(String problemId) throws ProblemNotFoundException {
         Problem problem = problemRepository.findById(problemId).orElseThrow(ProblemNotFoundException::new);
-        return null;
+        return problem;
     }
 }

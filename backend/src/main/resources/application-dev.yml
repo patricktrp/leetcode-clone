@@ -5,3 +5,8 @@ spring:
       database: leetcode
       options:
         createDatabase: always
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: ${AUTH0_ISSUER_URI}
