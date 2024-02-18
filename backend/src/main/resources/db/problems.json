@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Two Sum",
+    "slug": "two-sum",
+    "description": [
+      "1", "2"
+    ],
+    "hints": [
+      "1, 2"
+    ],
+    "sampleInput": "1",
+    "sampleOutput": "2",
+    "optimalComplexity": "O(N)",
+    "difficulty": "EASY",
+    "categories": [
+      "ARRAY"
+    ],
+    "placeholderCode": {
+      "PYTHON": "def two_sum(array, target):\n\tpass",
+      "JAVASCRIPT": "const twoSum = (array, target) => {\n\n}"
+    }
+  },
+  {
+    "name": "Binary Search",
+    "slug": "binary-search",
+    "description": [
+      "1", "2"
+    ],
+    "hints": [
+      "1, 2"
+    ],
+    "sampleInput": "1",
+    "sampleOutput": "2",
+    "optimalComplexity": "O(N)",
+    "difficulty": "EASY",
+    "categories": [
+      "ARRAY"
+    ],
+    "placeholderCode": {
+      "PYTHON": "def binary_search(array, target):\n\tpass",
+      "JAVASCRIPT": "const binarySearch = (array, target) => {\n\n}"
+    }
+  },
+  {
+    "name": "Bubble Sort",
+    "slug": "bubble-sort",
+    "description": [
+      "1", "2"
+    ],
+    "hints": [
+      "1, 2"
+    ],
+    "sampleInput": "1",
+    "sampleOutput": "2",
+    "optimalComplexity": "O(N)",
+    "difficulty": "EASY",
+    "categories": [
+      "ARRAY", "SORTING"
+    ],
+    "placeholderCode": {
+      "PYTHON": "def bubble_sort(array):\n\tpass",
+      "JAVASCRIPT": "const bubbleSort = (array) => {\n\n}"
+    }
+  }
+]

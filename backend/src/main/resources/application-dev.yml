@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongo:
+      uri: mongodb://admin:pass@localhost:27017/leetcode
+      database: leetcode
+      options:
+        createDatabase: always
